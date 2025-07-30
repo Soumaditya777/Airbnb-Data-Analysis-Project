@@ -1,4 +1,5 @@
 🏠 Airbnb Data Analysis Project
+
 📌 Overview
 This project involves an exploratory data analysis (EDA) of Airbnb listings to uncover insights about pricing, availability, and location-based trends. The goal is to help users, hosts, and stakeholders make data-driven decisions.
 
