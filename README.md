@@ -1,25 +1,47 @@
-🏠 Airbnb Data Analysis Project
+🏠 Airbnb Data Analysis
+A comprehensive data analysis project exploring trends and patterns in Airbnb listings to extract actionable insights for business and customer experience optimization.
 
-📌 Overview
-This project involves an exploratory data analysis (EDA) of Airbnb listings to uncover insights about pricing, availability, and location-based trends. The goal is to help users, hosts, and stakeholders make data-driven decisions.
+📂 Dataset Overview
+Source: Airbnb listings dataset (100K+ records)
 
-🎯 Objectives
-Understand key features impacting Airbnb listing prices.
+Features: Property details, pricing, availability, reviews, host information
 
-Analyze availability patterns and seasonal trends.
+Objective: Explore, clean, and visualize the data to uncover key insights
 
-Identify popular neighborhoods and their average prices.
+🧹 Data Preprocessing
+Removed irrelevant columns (license, house_rules)
 
-Visualize correlations and outliers in the dataset.
+Handled missing values in reviews_per_month, last_review, host_name
 
-🛠️ Tools & Technologies
-Python
+Cleaned price and service_fee (currency → float)
 
-Pandas – for data wrangling
+Fixed data types and dropped duplicates
 
-Matplotlib & Seaborn – for visualization
+📊 Key Insights
+Most Listings: Manhattan & Brooklyn
 
-NumPy – for numerical operations
+Popular Room Type: Entire home/apt
 
-Jupyter Notebook
+Price Trends: Private rooms are cheaper; shared rooms are rare
+
+Review Patterns: Seasonality observed in review counts
+
+Availability: Varies significantly with location and host type
+
+📈 Visualizations
+Distribution plots for price, room_type
+
+Bar charts for top neighbourhoods
+
+KDE plots for pricing trends
+
+Time series plot for reviews over time
+
+📌 Tools Used
+Python, Pandas, Matplotlib, Seaborn, NumPy
+
+Jupyter Notebook for exploration and visualization
+
+🚀 Outcome
+Gained strong insights into host behavior, guest preferences, and pricing strategy—valuable for decision-making in real estate, marketing, and customer satisfaction optimization.
 
